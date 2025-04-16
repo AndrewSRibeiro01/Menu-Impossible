@@ -1,3 +1,5 @@
+OBVIAMENTE NÃO ESTA RESPONSIVO, E NEM ESTA ESCRITO DA MELHOR FORMA POSSIVEL, ISSO É APENAS UM ESBOÇO DE ALGO QUE TENTEI REPLICAR EM CÓDIGO
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

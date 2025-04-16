@@ -24,7 +24,6 @@ export const GridHeader = styled.div`
 `
 
 export const GridName = styled.div`
-    font-family: sans-serif;
     font-weight: 500;
     font-size: 28px;
     color: #FFF;
@@ -32,7 +31,6 @@ export const GridName = styled.div`
 `
 
 export const GridWelcome = styled.div`
-    font-family: sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #FFF;

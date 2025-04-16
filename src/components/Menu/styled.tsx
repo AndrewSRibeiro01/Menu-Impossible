@@ -52,23 +52,23 @@ export const NozzleBackMenu = styled.div`
 `
 
 export const BallBottom = styled.div`
-    /* background-color: #ffffff;
+    background-color: #ffffff;
     z-index: 2;
     position: absolute;
     width: 709px;
     height: 295px;
     border-radius: 64%;
     margin-left: -6px;
-    margin-top: -118px; */
+    margin-top: -118px;
 
-    background-color: #ffffff;
+    /* background-color: #ffffff;
     z-index: 2;
     position: absolute;
     width: 211px;
     height: 191px;
     border-radius: 100%;
     margin-left: -7px;
-    margin-top: -58px;
+    margin-top: -63px; */
 
     /* background-color: #ffffff;
     z-index: 2;
