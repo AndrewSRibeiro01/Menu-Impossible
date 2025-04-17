@@ -1,6 +1,4 @@
 import * as S from "./styled"
-import { IoNotificationsOutline } from "react-icons/io5";
-import { IoHelpCircleOutline } from "react-icons/io5";
 import image from "../../assets/img/eu.jpg";
 
 export const Header = () => {
@@ -17,9 +15,9 @@ export const Header = () => {
                 </div>
                 <S.IconsAvatar>
                     <S.ColorIcons>
-                        <IoHelpCircleOutline style={{ paddingRight: "4px", width: "65px", height: "35px", cursor: "pointer" }} />
-                        <IoNotificationsOutline style={{ paddingRight: "4px", width: "65px", height: "35px", cursor: "pointer" }} />
-                        <S.AvatarImage src={image} alt="" />
+                        <S.StyledIoHelpCircleOutline />
+                        <S.StyledIoNotificationsOutline />
+                        <S.AvatarImage src={image} alt="Eu" />
                     </S.ColorIcons>
                 </S.IconsAvatar>
             </S.GridHeader>
