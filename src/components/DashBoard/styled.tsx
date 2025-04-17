@@ -29,6 +29,18 @@ export const Grid = styled.div`
     border-radius: 6px;
 `
 
+export const GridButtons = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.83px solid #3B295F66;
+    box-shadow: 5px 5px 5px 5px #0C0C0D0D;
+    width: 100%;
+    height: 90px;
+    border-radius: 6px;
+`
+
 export const FlexColumn = styled.div`
     display: flex;
     flex-direction: column;
@@ -54,7 +66,7 @@ export const Charts = styled.div`
     border: 0.83px solid #3B295F66;
     box-shadow: 5px 5px 5px 5px #0C0C0D0D;
     width: 100%;
-    height: 410px;
+    height: 390px;
     border-radius: 6px;
     z-index: 4;
 `

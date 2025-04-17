@@ -10,7 +10,7 @@ export const Dashboard = () => {
     return (
         <S.Container>
             <S.GridCards>
-                <S.Grid>
+                <S.GridButtons>
                     <img src={printer} alt="Printer" />
                     <S.FlexColumn>
                         <S.Paragraph>
@@ -23,9 +23,9 @@ export const Dashboard = () => {
                     <S.PrinterButton style={{ width: "20%" }}>
                         Imprimir
                     </S.PrinterButton>
-                </S.Grid>
+                </S.GridButtons>
 
-                <S.Grid>
+                <S.GridButtons>
                     <img src={question} alt="Question" />
                     <S.FlexColumn>
                         <S.Paragraph>
@@ -38,7 +38,7 @@ export const Dashboard = () => {
                     <S.PrinterButton>
                         Responder
                     </S.PrinterButton>
-                </S.Grid>
+                </S.GridButtons>
 
                 <S.Zindex>
                     <S.Order>

@@ -6,12 +6,12 @@ import { SaleMonth } from './components/SaleMonth'
 
 const App = () => {
   return (
-    <>
+    <div>
       <Header />
       <MainMenu />
       <SaleMonth />
       <Dashboard />
-    </>
+    </div>
   )
 }
 
