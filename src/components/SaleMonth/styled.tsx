@@ -5,7 +5,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
     top: 26%;
     width: 100%;
     z-index: 4;

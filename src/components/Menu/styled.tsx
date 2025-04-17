@@ -1,42 +1,57 @@
 import styled from "styled-components";
+import { CgMenuGridR } from "react-icons/cg";
+import { VscChecklist } from "react-icons/vsc";
+import { IoStatsChartOutline } from "react-icons/io5";
+import { TbMoneybag } from "react-icons/tb";
+import { BsGear } from "react-icons/bs";
+import { LuSquareUser } from "react-icons/lu";
+
+export const Container = styled.div`
+    width: 10%;
+    margin-Top: 7%;
+`
 
 export const Ball = styled.div`
-    /* background-color: #fbfbfb;
+    background-color: #fbfbfb;
     z-index: 2;
     position: absolute;
-    width: 700px;
-    height: 220px;
+    width: 709px;
+    height: 295px;
     border-radius: 64%;
-    margin-left: -6px;
-    margin-top: -122px; */
+    margin-left: -1px;
+    margin-top: -162px;
 
-    background-color: #ffffff;
-    z-index: 2;
-    position: absolute;
-    width: 233px;
-    height: 182px;
-    border-radius: 64%;
-    margin-left: -6px;
-    margin-top: -122px;
-
+    @media ( max-width: 1440px) {
+        width: 709px;
+        height: 295px;
+        border-radius: 64%;
+        margin-left: -26px;
+        margin-top: -195px;
+    }
+    @media ( max-width: 1230px) {
+        width: 490px;
+        height: 295px;
+        border-radius: 64%;
+        margin-left: -26px;
+        margin-top: -197px;
+    }
 `
 
 export const NozzleMenu = styled.div`
     background-color: #3B295F;
-    width: 4%;
-    height: 9vh;
+    width: 40%;
+    height: 12vh;
     border-radius: 0 100% 0 0;
-    margin-top: 0px;
+    margin-top: -9px;
 `
 
 export const GridMenu = styled.div`
     display: flex;
     flex-direction: column;
     color: #fff;
-    width: 6%;
+    width: 60%;
     height: 60vh;
     background-color: #3B295F;
-    position: absolute;
     border-radius: 0 80px 80px 0;
     margin-top: -41px;
     align-items: center;
@@ -45,37 +60,70 @@ export const GridMenu = styled.div`
 
 export const NozzleBackMenu = styled.div`
     background-color: #3B295F;
-    width: 4%;
-    height: 9vh;
+    width: 45%;
+    height: 12vh;
     border-radius: 0 0 100% 0;
-    margin-top: 26%;
+    margin-top: -24%;
 `
 
 export const BallBottom = styled.div`
     background-color: #ffffff;
     z-index: 2;
-    position: absolute;
     width: 709px;
     height: 295px;
     border-radius: 64%;
-    margin-left: -6px;
-    margin-top: -118px;
+    margin-left: -1px;
+    margin-top: -138px;
 
-    /* background-color: #ffffff;
-    z-index: 2;
-    position: absolute;
-    width: 211px;
-    height: 191px;
-    border-radius: 100%;
-    margin-left: -7px;
-    margin-top: -63px; */
+    @media ( max-width: 1440px) {
+        width: 709px;
+        height: 295px;
+        border-radius: 64%;
+        margin-left: -1px;
+        margin-top: -138px;
+    }
 
-    /* background-color: #ffffff;
-    z-index: 2;
-    position: absolute;
-    width: 216px;
-    height: 202px;
-    border-radius: 100%;
-    margin-left: -10px;
-    margin-top: -54px; */
+    @media ( max-width: 1230px) {
+        width: 490px;
+        height: 295px;
+        border-radius: 64%;
+        margin-left: 0px;
+        margin-top: -138px;
+    }
+`
+
+export const StyledCgMenuGridR = styled(CgMenuGridR)`
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+`
+
+export const StyledVscChecklist = styled(VscChecklist)`
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+`
+
+export const StyledIoStatsChartOutline = styled(IoStatsChartOutline)`
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+`
+
+export const StyledTbMoneybag = styled(TbMoneybag)`
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+`
+
+export const StyledBsGear = styled(BsGear)`
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+`
+
+export const StyledLuSquareUser = styled(LuSquareUser)`
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
 `

@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { IoNotificationsOutline } from "react-icons/io5";
+import { IoHelpCircleOutline } from "react-icons/io5";
 
 export const GridContainer = styled.div`
     display: flex;
@@ -14,7 +16,7 @@ export const GridHeader = styled.div`
     align-items: center;
     gap: 15px;
     padding-left: 30px;
-    position: static;
+    /* position: static; */
     margin-top: 25px;
     z-index: 3;
     width: 70%;
@@ -50,4 +52,18 @@ export const ColorIcons = styled.div`
     color: #fff;
     display: flex;
     align-items: center;
-` 
+`
+
+export const StyledIoHelpCircleOutline = styled(IoHelpCircleOutline)`
+    padding-right: 4px;
+    width: 65px;
+    height: 35px;
+    cursor: pointer;
+`
+
+export const StyledIoNotificationsOutline = styled(IoNotificationsOutline)`
+    padding-right: 4px;
+    width: 65px;
+    height: 35px;
+    cursor: pointer; 
+`
